@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Game</title>
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="screen active" id="quiz-start">
+            <h1 class="quiz-title">
+                Quiz Time!
+            </h1>
+            <p class="quiz-text">
+                Test your knowledge with these questions.
+            </p>
+            <button class="btn">
+                Start Quiz
+            </button>
+
+        </div>
+        <div class="screen" id="quiz-screen">
+            <h2 class="quiz-question">Question 1</h2>
+            <p class="question-num">
+                Question <span class="question-id">1</span> of <span class="total-questions">5</span>
+            </p>
+            <div class="question-option-container">
+
+            </div>
+
+
+        </div>
+        <div class="screen" id="quiz-results">
+            <h2 class="quiz-results-title">
+                Quiz Results 
+            </h2>
+            <div class="results-details">
+                <p class="score-detail">
+                    You scored <span class="score">1</span>out of <span class="total">5</span>
+                    <h3 class="game-comment">
+                        Good effort keep learning
+                    </h3>
+                </p>
+            </div>
+
+        </div>
+
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
