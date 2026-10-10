@@ -9,36 +9,36 @@
 </head>
 <body>
     <div class="container">
-        <div class="screen " id="quiz-start">
+        <div class="screen" id="quiz-start">
             <h1 class="quiz-title">
                 Quiz Time!
             </h1>
             <p class="quiz-text">
                 Test your knowledge with these questions.
             </p>
-            <button class="btn">
+            <button class="btn" id="start-btn">
                 Start Quiz
             </button>
 
         </div>
-        <div class="screen active"" id="quiz-screen">
-            <h2 class="quiz-question">Question 1</h2>
+        <div class="screen" id="quiz-screen">
+            <h2 class="quiz-question" id="quiz-question">Question 1</h2>
             <div class="quiz-header">
                 
                 <p class="question-num">
-                    Question <span class="question-id">1</span> of <span class="total-questions">5</span>
+                    Question <span class="question-id" id="q-id"></span> of <span class="total-questions" id="total-question-num"></span>
                 </p>
                 <p class="score-counter-container">
-                    Score <span class="score-count">0</span>
+                    Score <span class="score-count" id="s-count"></span>
                 </p>
 
             </div>
             
             <div class="question-option-container">
-                <button class="ans-btn correct">Placeholder answer</button>
+                <!-- <button class="ans-btn correct">Placeholder answer</button>
                 <button class="ans-btn incorrect">Placeholder answer</button>
                 <button class="ans-btn">Placeholder answer</button>
-                <button class="ans-btn">Placeholder answer</button>
+                <button class="ans-btn">Placeholder answer</button> -->
                 
 
 
@@ -57,9 +57,9 @@
             </h2>
             <div class="results-details">
                 <p class="score-detail">
-                    You scored <span class="score">1</span> out of <span class="total">5</span>
+                    You scored <span class="score" id="result-score"></span> out of <span class="total" id="score-total"></span>
                     <h3 class="game-comment">
-                        Good effort keep learning
+
                     </h3>
                 </p>
             </div>
